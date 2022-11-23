@@ -1,0 +1,8 @@
+export _bat='^c#FFFFFF^^b#4E5173^^sbat^  33% ^d^'
+export _vol='^c#FFFFFF^^b#334466^^svol^ 奔 50% ^d^'
+export _light='^c#FFFFFF^^b#334466^^slight^ ﯧ 90% ^d^'
+export _coin='^c#FFFFFF^^b#4E5173^^scoin^ ﲹ:1170.94 ^d^'
+export _cpu='^c#FFFFFF^^b#335566^^scpu^ 閭 01%  ^d^'
+export _mem='^c#FFFFFF^^b#334466^^smem^  14% ^d^'
+export _wlan='^c#FFFFFF^^b#4E5173^^swlan^ 0KB/s 祝0KB/s ^d^'
+export _date='^c#FFFFFF^^b#335566^^sdate^  11/24 06:05:13 ^d^'
