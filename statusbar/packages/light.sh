@@ -24,9 +24,8 @@ update() {
 
 click() {
     case "$1" in
-        L) xbacklight -inc 10  ;; # 亮度加
-        M) pactl set-sink-mute @DEFAULT_SINK@ toggle ;; # 切换静音
-        R) xbacklight -dec 10  ;; # 亮度减
+        L) xbacklight -inc 5  ;; # 亮度加
+        R) xbacklight -dec 5  ;; # 亮度减
     esac
 }
 

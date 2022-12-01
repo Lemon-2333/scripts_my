@@ -37,7 +37,7 @@ case $1 in
     cron) cron ;;
     refresh) refresh ;;
     update) shift 1; update $*; refresh ;;
-    updateall) update icons coin cpu mem date vol bat; refresh ;;
+    updateall) update icons coin cpu mem date vol bat light; refresh ;;
     # 接收clickstatusbar传递过来的信号 $1: 模块名  $2: 按键(L|M|R)
     *) click $1 $2 ;;
 esac

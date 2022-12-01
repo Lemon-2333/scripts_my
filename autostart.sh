@@ -23,7 +23,7 @@ daemons() {
     dunst -conf $DWM/config/dunst.conf &
     lemonade server &
     picom --experimental-backends --config $DWM/config/picom.conf >> /dev/null 2>&1 &
-    ulauncher &
+    ulauncher --hide-windows &
     xfce4-clipman &
     wmname LG3D &
 }
